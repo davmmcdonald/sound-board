@@ -1,0 +1,37 @@
+body {
+    background-color: #152238;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: #152238;
+    border: solid #ECE81A;
+    margin: 32px;
+    padding: 4px 16px;
+    flex: 0;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    color: #ECE81A;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+.pressed {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 0px #ECE81A;
+    background-color: #ECE81A;
+    color: #152238;
+}
+
+.subtext {
+    font-size: 12px;
+}
